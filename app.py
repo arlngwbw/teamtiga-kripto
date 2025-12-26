@@ -6,6 +6,7 @@ from sheets import send_to_sheets
 app = Flask(__name__)
 blockchain = Blockchain()
 
+#mencoba
 @app.route("/add_data", methods=["POST"])
 def add_data():
     data = request.json
